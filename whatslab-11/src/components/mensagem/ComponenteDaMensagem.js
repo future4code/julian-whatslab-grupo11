@@ -32,7 +32,15 @@ export class ComponenteDaMensagem extends React.Component
             </div>
         
             )
+
+    render () {
+     return 
+        (
+            <div>
+                <InputStyle placeholder={"mensagem"} onChange={this.onChangeValorInputMensagem} value={this.state.valorInputMensagem}/>
+            </div>
+        
+         )
+
     }
 }
-
-
