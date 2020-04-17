@@ -2,6 +2,28 @@ import React from 'react';
 import {ComponenteDaMensagem} from './components/mensagem/ComponenteDaMensagem.js'
 import styled from 'styled-components'
 
+function App() {
+  return (
+
+const Container = styled.div`
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`
+
+const Quadradao = styled.div`
+  border: 1px solid black;
+  width: 400px;
+  height: 99vh;
+  display: flex;
+  align-items: flex-end;
+`
+const DivMsg = styled.div`
+  width: 100%;
+  height: 30px;
+`
 
 const Container = styled.div`
   margin: 0;
@@ -36,7 +58,7 @@ function App() {
 
         </DivMsg> {/*DIV dos inputs e botao*/}
       </Quadradao>
-
+    </Container> 
     </Container> 
   );
 }
