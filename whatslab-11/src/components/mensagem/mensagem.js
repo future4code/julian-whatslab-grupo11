@@ -21,7 +21,6 @@ export class ComponentDaMensagem extends React.Component
             <div>
                 <input placeholder={"mensagem"} onChange={this.onChangeValorInputMensagem} value={this.state.valorInputMensagem}/>
             </div>
-
         }
     
 }
