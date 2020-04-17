@@ -2,6 +2,8 @@ import React from 'react';
 import {ComponenteDaMensagem} from './components/mensagem/ComponenteDaMensagem.js'
 import styled from 'styled-components'
 
+function App() {
+  return (
 
 const Container = styled.div`
   margin: 0;
@@ -38,6 +40,7 @@ function App() {
       </Quadradao>
 
     </Container> 
+
   );
 }
 
