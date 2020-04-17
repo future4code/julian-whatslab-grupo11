@@ -1,11 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const InputStyle = styled.input`
-    width: 70%;
-    height: 100%;
-    border: 1px solid red;
-`
+
 
 export class ComponenteDaMensagem extends React.Component 
 {
@@ -26,11 +22,6 @@ export class ComponenteDaMensagem extends React.Component
     render () {
     return (
 
-            <div>
-                <InputStyle placeholder={"mensagem"} onChange={this.onChangeValorInputMensagem} 
-                value={this.state.valorInputMensagem}/>
-            </div>
-        
             )
     }
 }
